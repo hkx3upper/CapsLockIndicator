@@ -1,0 +1,30 @@
+﻿<Window x:Class="CapsLockIndicator.ShutDownAlert"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CapsLockIndicator"
+        mc:Ignorable="d"
+        Title="Alert" Height="100" Width="123.6"
+         WindowStyle="None"
+        AllowsTransparency="True"  
+        Background="#F8F1E0"
+        BorderThickness="5"
+        BorderBrush="WhiteSmoke" 
+        WindowStartupLocation="Manual">
+    <Grid>
+
+        <TextBlock Name="tbTime" Margin="27,30,27,48" HorizontalAlignment="Center">
+            <TextBlock.Foreground>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.MenuHighlightColorKey}}"/>
+            </TextBlock.Foreground>
+        </TextBlock>
+
+        <Button Content="Cancel" Background="#F8F1E0" 
+                BorderThickness="2"
+                BorderBrush="WhiteSmoke"
+                Foreground="#FF0078D7"
+                HorizontalAlignment="Center" Margin="0,67,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+
+    </Grid>
+</Window>
