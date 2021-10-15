@@ -1,0 +1,2 @@
+# CapsLockIndicator
+Indicator CapsLock status
