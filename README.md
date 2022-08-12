@@ -6,7 +6,9 @@ Indicator CapsLock status
 Windows 10 x64
 .NET 5.0
 
-我的fc660m bt在蓝牙模式没有大小写指示灯，这一点令人非常的无语......
+![image](https://user-images.githubusercontent.com/41336794/184457803-38b4eb4b-8b91-4ee7-af0f-e694be57ae7d.png)
+
+指示CapsLock按键的状态
 
 另外还增加了一点使用的功能：
 
@@ -20,4 +22,4 @@ Windows 10 x64
 
 注意，exe文件需要和dll文件在同一目录下，才能正常运行，你可以把手动它加入到系统启动路径中
 
-本程序是通过GetKeyState函数，每200毫秒轮询CapsLock键状态，判断大小写的，这种方法可能会占用系统的一丢丢资源，但是经过我的实测，没有太大影响
+程序是通过GetKeyState函数，每200毫秒轮询CapsLock键状态，判断大小写的，这种方法可能会占用系统的一丢丢资源，但是经过我的实测，没有太大影响
