@@ -7,6 +7,7 @@ Windows 10 x64
 .NET 5.0
 
 ![image](https://user-images.githubusercontent.com/41336794/184457803-38b4eb4b-8b91-4ee7-af0f-e694be57ae7d.png)
+![image](https://user-images.githubusercontent.com/41336794/184457879-d595cce3-5273-4233-ac38-ea55d9755359.png)
 
 指示CapsLock按键的状态
 
