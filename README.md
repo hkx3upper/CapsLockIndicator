@@ -3,15 +3,15 @@ Indicator CapsLock status
 大写锁定键指示器
 
 环境
-Windows 10 x64
-.NET 5.0
+Windows 10 x64  
+.NET 5.0  
 
 ![image](https://user-images.githubusercontent.com/41336794/184457803-38b4eb4b-8b91-4ee7-af0f-e694be57ae7d.png)
 ![image](https://user-images.githubusercontent.com/41336794/184457879-d595cce3-5273-4233-ac38-ea55d9755359.png)
 
 指示CapsLock按键的状态
 
-另外还增加了一点使用的功能：
+另外还增加了一点别的功能：
 
 1.鼠标左键点击，就会将界面切换到桌面
 
